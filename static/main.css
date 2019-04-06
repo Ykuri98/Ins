@@ -1,0 +1,282 @@
+body{
+	background-color:#E9E9E9;
+}
+
+
+#downside {
+    top:160px;
+	left:0;
+	width: 100%;
+	position: absolute;
+}
+
+.change-blank{
+	margin:0 auto;
+	width: 900px;
+    height: 600px;
+    padding: auto;
+    text-align: left;
+    color:black;
+}
+
+.change-blank form {
+	width:100%;
+	height:100%;
+}
+.left-blank{
+	position:absolute;
+	float:left;
+	width:36%;
+	z-index:0;
+	
+	
+
+}
+.message__list{
+	position:relative;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:white;
+	width:100%;
+	border-radius: 0.1875rem;
+	box-shadow:0px 0.1875rem 0.4375rem rgba(0, 0, 0, 0.25) ;
+	margin-bottom:5px;
+}
+.publisher{
+	background:white;
+	position:relative;
+	top:0;
+	height:50px;
+}
+#publisher__avatar{
+	position:relative;
+	border-radius:50%;
+	top:7.5px;
+	left:20px;
+	margin-right:10px;
+}
+#publisher__username{
+	position:relative;
+	left:20px;
+	bottom:5.5px;
+	font-size:15px;
+	font-weight:800;
+}
+#publish__time{
+	position:relative;
+	left:50px;
+	bottom:6px;
+}
+.picture{
+	position:relative;
+	width:96%;
+	margin:0 auto;
+	margin-bottom:9px;
+}
+.likes__and__comments{
+	position:relative;
+	width:96%;
+	margin:0 auto;
+}
+#likes{
+	position:relative;
+	font-size:15px;
+	bottom:11px;
+}
+#comments{
+	position:relative;
+	font-size:15px;
+	bottom:11px;
+}
+.comment__list{
+	position:relative;
+	width:88%;
+	height:25px;
+	margin:0 auto;
+}
+#comment__user{
+	font-size:15px;
+	color:blue;
+	font-weight:800;
+}
+#comment__content{
+	font-size:15px;
+}
+.comment__here{
+	position:relative;
+	width:96%;
+	height:25px;
+	margin-top:7.5px;
+	margin-bottom:10px;
+	padding-left:5px;
+	
+}
+#comment__space{
+	border: 1px solid gray;
+	height:20px;
+	width: 85%;
+	padding-left:10px;
+}
+
+.right-blank{
+	width:300px;
+	height:500px;
+	border-radius: 0.1875rem;
+	position:fixed;
+	right:20%;
+}
+
+.user-blank{
+	position:fixed;
+	width:300px;
+	height:80px;
+}
+
+#little__avatar{
+	position:relative;
+	border-radius:50%;
+	top:15px;
+	left:15px;
+	margin-right:15px;
+}
+.user-avatar{
+	position:fixed;
+	width:80px;
+	height:80px;
+}
+.user-info{
+	position:fixed;
+	right:20%;
+	top:160px;
+	width:220px;
+	height:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-align:left;
+	font-size:16px;
+}
+
+
+#username{
+	font-weight:800;
+}
+
+.moments-blank{
+	position:relative;
+	top:80px;
+	width:300px;
+	height:195px;
+	margin-bottom:15px;
+	background-color:#FAFAFA;
+	border-radius: 0.1875rem;
+	box-shadow:0px 0.1875rem 0.1875rem rgba(0, 0, 0, 0.15) ;
+}
+
+.recommend-blank{
+	position:relative;
+	top:75px;
+	width:300px;
+	height:195px;
+	margin-bottom:10px;
+	background-color:#FAFAFA;
+	border-radius: 0.1875rem;
+	box-shadow:0px 0.1875rem 0.1875rem rgba(0, 0, 0, 0.15) ;
+}
+.little__title{
+	height:28px;
+}
+#little__title{
+	font-size:22px;
+	margin-left:5px;
+	color: #afaba7;
+	font-style:oblique;
+	font-family:'Open Sans';
+	text-transform:Uppercase;
+}
+#get_more_btn{
+	font-size:15px;
+	position:relative;
+	float:right;
+	top:8px;
+	background-color:#FAFAFA;
+}
+#get_more_btn:hover{
+	color:#cfcfcf;
+}
+.other__user{
+	position:absolute;
+	width:300px;
+	height:75px;
+}
+.other__user__avatar{
+	height:50px;
+	width:50px;
+	margin-left:7.5px;
+	display:inline-block;
+}
+#other__avatar{
+	position:relative;
+	border-radius:50%;
+	top:3px;
+	left:7.5px;
+	margin-right:10px;
+}
+.other__user__info{
+	width:220px;
+	height:75px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-align:left;
+	font-size:14px;
+	display:inline-block;
+}
+.check__btn{
+	position:fixed;
+	right:21%;
+	width:30px;
+	height:75px;
+	text-align:right;
+	font-size:14px;
+	transform: translate(-40%, -115%);
+}
+
+input{
+	outline:none;
+	border:none;
+}
+
+.function-blank{
+	position:relative;
+	top:75px;
+	width:280px;
+	height:75px;
+	margin-bottom:10px;
+}
+#function{
+	font-size:13px;
+}
+#function:hover{
+	color:#afaba7;
+}
+#check__btn{
+	font-size:25px;
+	background-color:#FAFAFA;
+	color:red;
+}
+#check__btn:hover{
+	color:#cfcfcf;
+	
+}
+#buttons{
+	height: 20px;
+	width: 45px;
+	font-size:12px;
+	font-family: Roboto;
+	color: #fff;
+	background-color: #111;
+	border-radius:5px;
+	margin-left:3px;
+}
+#buttons:hover{
+	background: #323232;
+}
